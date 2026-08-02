@@ -48,7 +48,7 @@ padding: 100px 200px;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url("images /bg.jpg");
+    background-image: url("images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
