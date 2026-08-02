@@ -248,3 +248,28 @@ padding: 100px 200px;
         font-size: 10px;
     }
 }
+
+
+
+
+
+/* تنسيق أيقونات السوشيال ميديا بالكامل */
+.social-icons a {
+    color: #fff; /* اللون الافتراضي أبيض */
+    font-size: 1.7em; /* تكبير حجم الأيقونات */
+    padding-right: 15px; /* مسافة بين الأيقونات */
+    transition: 0.4s ease; /* تأثير ناعم عند مرور الماوس */
+}
+
+/* تلوين أيقونة الفيس بوك بالأزرق لما الماوس ييجي عليها */
+.social-icons a:hover .fa-facebook {
+    color: #1877F2; 
+    transform: scale(1.2); /* تكبير خفيف عند الهوفر */
+}
+
+/* تلوين أيقونة الواتساب بالأخضر لما الماوس ييجي عليها */
+.social-icons a:hover .fa-whatsapp {
+    color: #25D366;
+    transform: scale(1.2);
+}
+
